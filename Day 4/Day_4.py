@@ -48,6 +48,8 @@ elif playerChoose == 'scissor' and computerChoose == rock:
     print(f"player choose: {scissors}")
     print(f"computer choose: {computerChoose}")
     print("Computer Win!")
+elif playerChoose == computerChoose:
+    print("DRAWN! =0")
 else:
     print("You Win!")
 
